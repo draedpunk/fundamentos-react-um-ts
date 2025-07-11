@@ -26,9 +26,6 @@ export interface PostType{
 }
 
 interface PostProps {
-    // author: Author;
-    // publishedAt: Date;
-    // content: Content[];
     post: PostType;
 }
 

@@ -15,6 +15,7 @@ export function Avatar({hasBorder = true, src, alt,}: AvatarProps){
             className={hasBorder ? styles.avatarWithBorder : styles.avatar} 
             src={src} 
             alt={alt}
+            
         />
     );
 }
